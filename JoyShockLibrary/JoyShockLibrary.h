@@ -1,11 +1,14 @@
 // JoyShockLibrary.h - Contains declarations of functions
 #pragma once
 
+/*
 #if _MSC_VER // this is defined when compiling with Visual Studio
 #define JOY_SHOCK_API __declspec(dllexport) // Visual Studio needs annotating exported functions with this
 #else
 #define JOY_SHOCK_API // XCode does not need annotating exported functions, so define is empty
 #endif
+*/
+#define JOY_SHOCK_API // This iteration of JoyShock is meant to have a wrapper for GMS2.X, as such, functions will not be exported here
 
 #define JS_TYPE_JOYCON_LEFT 1
 #define JS_TYPE_JOYCON_RIGHT 2

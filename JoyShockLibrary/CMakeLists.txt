@@ -1,6 +1,6 @@
 add_library (
     ${PROJECT_NAME}
-    JoyShockLibrary.cpp    JoyShockLibrary.h
+    GMLWrapper.cpp   JoyShockLibrary.cpp   JoyShockLibrary.h
 )
 
 target_include_directories (

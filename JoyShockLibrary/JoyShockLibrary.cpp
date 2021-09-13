@@ -9,7 +9,6 @@
 #include <shared_mutex>
 #include <unordered_map>
 #include <atomic>
-#include "SensorFusion.cpp"
 #include "JoyShock.cpp"
 #include "InputHelpers.cpp"
 
