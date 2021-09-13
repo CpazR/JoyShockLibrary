@@ -13,6 +13,7 @@
 #ifdef __GNUC__
 #define _wcsdup wcsdup
 #endif
+#include "SensorFusion.cpp"
 
 enum ControllerType { n_switch, s_ds4, s_ds };
 
