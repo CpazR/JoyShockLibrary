@@ -28,7 +28,7 @@ func double JslImplGetLeftX(double deviceId) {
 }
 
 func double JslImplGetLeftY(double deviceId) {
-	return JslGetLeftY(deviceId);
+	return -JslGetLeftY(deviceId);
 }
 
 func double JslImplGetRightX(double deviceId) {
@@ -36,7 +36,7 @@ func double JslImplGetRightX(double deviceId) {
 }
 
 func double JslImplGetRightY(double deviceId) {
-	return JslGetRightY(deviceId);
+	return -JslGetRightY(deviceId);
 }
 
 // analog parameters have different resolutions depending on device
