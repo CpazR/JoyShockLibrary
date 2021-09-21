@@ -3,8 +3,18 @@ The Sony PlayStation's DualShock 4, DualSense, Nintendo Switch Joy-Cons (used in
 
 My goal with JoyShockLibrary is to enable game developers to support DS4, DS, Joy-Cons, and Pro Controllers natively in PC games. I've compiled the library for Windows, but it uses platform-agnostic tools, and my hope is that other developers would be able to get it working on other platforms (such as Linux or Mac) without too much trouble.
 
+# JoyShockLibrary - Game Maker Studio Wrapper
+Game maker lacks any compatability with gyroscope or accelerometer functionality for desktop exports.
+
+This fork aims to add a simple wrapper to interface with Game maker studio, allowing this input.
+Unfortunately, this requires an entirely separate build due to limitations in the way GM can handle dlls.
+
+Will attempt to rebase with master branch on future releases.
+
 ## Contents
 * **[Releases](#releases)**
+* **[Compilation](#compilation)**
+  * **[Visual Studio 2019](#visual-studio-2019)**
 * **[Reference](#reference)**
   * **[Structs](#structs)**
   * **[Functions](#functions)**
@@ -16,6 +26,21 @@ My goal with JoyShockLibrary is to enable game developers to support DS4, DS, Jo
 
 ## Releases
 The latest version of JoyShockLibrary can always be found [here](https://github.com/JibbSmart/JoyShockLibrary/releases). Included is a 64-bit dll and a 32-bit dll, both for Windows, and JoyShockLibrary.h and JoyShockLibrary.cs for using the dll in C/C++ and C\# (Unity), respectively.
+
+## Compilation
+
+### Prerequisites
+- Visual Studio 2019
+- Visual Studio 2019 Build Tools (Listed for compatability's sake)
+  - Windows SDK 10.0.20348.0
+  - Platform Toolset v192
+- Cmake (Most recent version is fine)
+
+### Setup
+- Run scripts in /scripts folder to setup build environments for x86 and x64
+- Open build of choice (build-jsl-win32 or build-jsl-win64)
+- Run `ALL_BUILD` cmake target to build hidapi as well
+- From there JoyShockLibrary can be built individually whenever changes have been made
 
 ## Reference
 *JoyShockLibrary.h* has everything you need to use the library, but here's a breakdown of everything in there.
