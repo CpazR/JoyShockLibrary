@@ -14,7 +14,8 @@ Will attempt to rebase with master branch on future releases.
 ## Contents
 * **[Releases](#releases)**
 * **[Compilation](#compilation)**
-  * **[Visual Studio 2019](#visual-studio-2019)**
+  * **[Prerequisites](#prerequisites)**
+  * **[Setup](#setup)**
 * **[Reference](#reference)**
   * **[Structs](#structs)**
   * **[Functions](#functions)**
