@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/CMakeFiles/hidapi-populate"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/CMakeFiles/hidapi-populate.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/CMakeFiles/hidapi-populate-complete.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-build.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-configure.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-download.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-install.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-patch.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-test.rule"
+		},
+		{
+			"file" : "E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"hidapi-populate"
+		],
+		"name" : "hidapi-populate"
+	}
+}

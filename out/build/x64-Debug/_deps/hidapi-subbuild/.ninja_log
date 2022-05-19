@@ -1,0 +1,11 @@
+# ninja log v5
+0	167	6746216773426076	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-mkdir	8d8ad5adaa00c113
+167	3429	6746216806044234	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-download	183083da7388f344
+3430	3535	0	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-update	81a0d89b96bfce91
+3535	3583	6746216807584213	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-patch	266bb1bfeaaa6ebe
+3583	3631	6746216808064195	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-configure	a7c4952adf950774
+3631	3680	6746216808554203	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-build	8e26d8d54523b3c7
+3680	3729	6746216809044200	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-install	c0b315ac6e5059d8
+3729	3779	6746216809534190	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-test	2384299d7d2e18fe
+3779	3849	6746216810244195	CMakeFiles/hidapi-populate-complete	3a3eb79c35de8479
+3779	3849	6746216810244195	hidapi-populate-prefix/src/hidapi-populate-stamp/hidapi-populate-done	3a3eb79c35de8479
