@@ -172,7 +172,7 @@ func double JslImplGetButton(double deviceId, double buttonShift) {
 }
 
 func double JslImplGetButtonPressed(double deviceId, double buttonShift) {
-	FaceButtons button = static_cast<FaceButtons>(buttonShift);
+	FaceButtons button = static_cast<FaceButtons>((int)buttonShift);
 	bool rawInput = JslImplGetButton(deviceId, buttonShift);
 
 	// Check if button is pressed, if so perform oneshot check
@@ -195,7 +195,7 @@ func double JslImplGetButtonPressed(double deviceId, double buttonShift) {
 }
 
 func double JslImplGetButtonReleased(double deviceId, double buttonShift) {
-	FaceButtons button = static_cast<FaceButtons>(buttonShift);
+	FaceButtons button = static_cast<FaceButtons>((int)buttonShift);
 	bool rawInput = JslImplGetButton(deviceId, buttonShift);
 
 	// Check if button is not pressed, if so perform oneshot check
