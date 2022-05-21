@@ -26,7 +26,9 @@ Will attempt to rebase with master branch on future releases.
 * **[License](#license)**
 
 ## Releases
-The latest version of JoyShockLibrary can always be found [here](https://github.com/JibbSmart/JoyShockLibrary/releases). Included is a 64-bit dll and a 32-bit dll, both for Windows, and JoyShockLibrary.h and JoyShockLibrary.cs for using the dll in C/C++ and C\# (Unity), respectively.
+While this wrapper is still being maintained and developed, the most recent version can be found [here](https://github.com/CpazR/JoyShockLibrary-GML/releases) in the releases tab. This includes the 64/32-bit dlls with the yymps package for Game Maker Studio 2.3+.
+
+The latest version of the base JoyShockLibrary can always be found [here](https://github.com/JibbSmart/JoyShockLibrary/releases). Included is a 64-bit dll and a 32-bit dll, both for Windows, and JoyShockLibrary.h and JoyShockLibrary.cs for using the dll in C/C++ and C\# (Unity), respectively.
 
 ## Compilation
 
