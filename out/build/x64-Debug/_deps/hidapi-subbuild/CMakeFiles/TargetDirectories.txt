@@ -1,3 +1,0 @@
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/CMakeFiles/hidapi-populate.dir
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/CMakeFiles/edit_cache.dir
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/_deps/hidapi-subbuild/CMakeFiles/rebuild_cache.dir

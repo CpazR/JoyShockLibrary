@@ -171,7 +171,15 @@ Player 5: ```xxxxx```
 
 **void JslSetRumble(int deviceId, int smallRumble, int bigRumble)** - DualShock 4s have two types of rumble, and they can be set at the same time with different intensities. These can be set from 0 to 255. Nintendo devices support rumble as well, but totally differently. They call it "HD rumble", and it's a great feature, but JoyShockLibrary doesn't yet support it.
 
-## Known and Perceived Issues
+## Known Issues with GML Wrapper
+
+### Does not disconnect gracefully
+Calling the disconnect function does not gracefully disconnect controllers and crashes the Game Maker Studio runtime.
+
+### Functions not wrapped in Game Maker extension
+Currently, only base controller functionality along with gyroscope values are accessible by Game Maker Studio. Calibration, acceleromitor, and other similar functions have yet to be wrapped and tested for release.
+
+## Known and Perceived Issues with JoyShockLibrary
 ### Bluetooth connectivity
 Joy-Cons and Pro Controllers are normally only be connected by Bluetooth. Some Bluetooth adapters can't keep up with these devices, resulting in laggy input. This is especially common when more than one device is connected (such as when using a pair of Joy-Cons). There is nothing JoyShockMapper or JoyShockLibrary can do about this.
 
@@ -182,13 +190,7 @@ The Nintendo devices report every 15ms, but their IMUs actually report every 5ms
 
 In a future version I hope to either combine the 3 rotations in a way that works better in 3D, or to add a way for a single controller event to report several IMU events at the same time.
 
-## Backwards Compatibility
-JoyShockLibrary v2 changes the gyro and accelerometer axes from previous versions. Previous versions were inconsistent between gyro and accelerometer. When upgrading to JoyShockLibrary v2, in order to maintain previous behaviour:
-* Invert Gyro X
-* Swap Accel Z and Y
-* Then invert Accel Z
-
-## Credits
+## JoyShockLibrary Credits
 I'm Jibb Smart, and I made JoyShockLibrary. JoyShockLibrary has also benefited from the contributions of:
 * Romeo Calota (Linux support + general portability improvements)
 * RollinBarrel (touchpad support)

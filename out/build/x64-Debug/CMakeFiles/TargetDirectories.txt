@@ -1,6 +1,0 @@
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/CMakeFiles/hidapi.dir
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/JoyShockLibrary/CMakeFiles/JoyShockLibrary.dir
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/JoyShockLibrary/CMakeFiles/edit_cache.dir
-E:/Backup DO NOT DELETE/git/JoyShockLibrary-GMS/out/build/x64-Debug/JoyShockLibrary/CMakeFiles/rebuild_cache.dir

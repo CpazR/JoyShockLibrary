@@ -1,8 +1,0 @@
-# ninja log v5
-0	9	0	clean	f0859c636203ad58
-5	317	6746216900941713	JoyShockLibrary/CMakeFiles/JoyShockLibrary.dir/GMLWrapper.cpp.obj	3265d11cf91a06f0
-1	383	6746216901601692	CMakeFiles/hidapi.dir/_deps/hidapi-src/windows/hid.c.obj	543afa18ab0320f5
-383	476	6746216902061720	hidapi.lib	b239f80de05f46c1
-9	666	6746216904411695	JoyShockLibrary/CMakeFiles/JoyShockLibrary.dir/JoyShockLibrary.cpp.obj	f8893e576e713
-666	750	6746216904851705	JoyShockLibrary/JoyShockLibrary.lib	330b83c0502c424b
-0	9	0	clean	f0859c636203ad58
